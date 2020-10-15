@@ -1,5 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"oApartment","path":"objects/oApartment/oApartment.yy",},"order":0,},
+    {"id":{"name":"buyMenu","path":"objects/buyMenu/buyMenu.yy",},"order":15,},
+    {"id":{"name":"oHouse","path":"objects/oHouse/oHouse.yy",},"order":1,},
+    {"id":{"name":"oAutoMiner","path":"objects/oAutoMiner/oAutoMiner.yy",},"order":2,},
+    {"id":{"name":"oWar","path":"objects/oWar/oWar.yy",},"order":1,},
+    {"id":{"name":"oTornado","path":"objects/oTornado/oTornado.yy",},"order":0,},
+    {"id":{"name":"ui","path":"objects/ui/ui.yy",},"order":13,},
+    {"id":{"name":"oMall","path":"objects/oMall/oMall.yy",},"order":0,},
+    {"id":{"name":"mainMenu","path":"objects/mainMenu/mainMenu.yy",},"order":14,},
+    {"id":{"name":"oResourceManager","path":"objects/oResourceManager/oResourceManager.yy",},"order":1,},
+    {"id":{"name":"oQuantumQuarry","path":"objects/oQuantumQuarry/oQuantumQuarry.yy",},"order":0,},
+    {"id":{"name":"oRestaurant","path":"objects/oRestaurant/oRestaurant.yy",},"order":1,},
+    {"id":{"name":"oWoodHarvester","path":"objects/oWoodHarvester/oWoodHarvester.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -33,6 +46,10 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Resources.yy","order":9,"resourceVersion":"1.0","name":"Resources","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Residential.yy","order":10,"resourceVersion":"1.0","name":"Residential","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Commercial.yy","order":11,"resourceVersion":"1.0","name":"Commercial","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Events.yy","order":12,"resourceVersion":"1.0","name":"Events","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
