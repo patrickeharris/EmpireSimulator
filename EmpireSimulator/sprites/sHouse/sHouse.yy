@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d238e68c-94da-4584-898d-02e62759b59e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Residential",
+    "path": "folders/Sprites/Building Sprites/Residential.yy",
   },
   "resourceVersion": "1.0",
   "name": "sHouse",

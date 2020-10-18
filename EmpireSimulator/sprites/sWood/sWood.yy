@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4f8c03b2-149d-426c-989c-958c7a8c1a8a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "UI Sprites",
+    "path": "folders/Sprites/UI Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sWood",

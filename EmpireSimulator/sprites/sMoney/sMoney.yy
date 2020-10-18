@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d19b6c9a-9c41-4345-9ad2-89d0760c8b73","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "UI Sprites",
+    "path": "folders/Sprites/UI Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMoney",

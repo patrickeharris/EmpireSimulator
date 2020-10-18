@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f179e6e1-1a03-452e-aee1-3c5d40c6f9d1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "UI Sprites",
+    "path": "folders/Sprites/UI Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sStone",
