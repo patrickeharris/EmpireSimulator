@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":19,},
     {"id":{"name":"oApartment","path":"objects/oApartment/oApartment.yy",},"order":0,},
     {"id":{"name":"buyMenu","path":"objects/buyMenu/buyMenu.yy",},"order":15,},
     {"id":{"name":"oHouse","path":"objects/oHouse/oHouse.yy",},"order":1,},
@@ -31,6 +32,7 @@
     {"id":{"name":"oWoodHarvester","path":"objects/oWoodHarvester/oWoodHarvester.yy",},"order":1,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":1,},
     {"id":{"name":"sMall","path":"sprites/sMall/sMall.yy",},"order":3,},
+    {"id":{"name":"sTornado","path":"sprites/sTornado/sTornado.yy",},"order":18,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":16,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":0,},
   ],
