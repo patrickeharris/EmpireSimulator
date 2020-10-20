@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sWoodHarvester",
+    "path": "sprites/sWoodHarvester/sWoodHarvester.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

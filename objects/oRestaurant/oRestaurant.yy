@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sRestaurant",
+    "path": "sprites/sRestaurant/sRestaurant.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

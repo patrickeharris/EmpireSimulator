@@ -42,12 +42,12 @@ if(shopOpen){
 			stone -= stoneHouse;
 			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oHouse);
 		}
-		if (item == "Wood Harvester")
+		if (item == "WoodHarvester")
 		{
 			money -= costWoodHarvester;
 	        instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oWoodHarvester);
 		}
-		if (item == "Quantum Quarry")
+		if (item == "QuantumQuarry")
 		{
 			money -= costQuantumQuarry
 			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oQuantumQuarry);
