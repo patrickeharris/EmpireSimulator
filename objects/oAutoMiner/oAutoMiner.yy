@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sAutoMiner",
-    "path": "sprites/sAutoMiner/sAutoMiner.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

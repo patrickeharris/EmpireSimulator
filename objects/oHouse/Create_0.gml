@@ -13,5 +13,5 @@ if(numResidential > numCommercial && populationHappiness < 100){
 
 //Set House Health
 
-health = 50;
+health = 100;
 

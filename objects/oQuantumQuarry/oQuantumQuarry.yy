@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sQuantumQuarry",
-    "path": "sprites/sQuantumQuarry/sQuantumQuarry.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

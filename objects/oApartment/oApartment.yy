@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sApartment",
-    "path": "sprites/sApartment/sApartment.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

@@ -12,6 +12,6 @@ if (health == 0)
 {
 	numResidential--;
 	populationHappiness -= 20;
-	population -= 3;
+	population -= 1;
 	instance_destroy();
 }
