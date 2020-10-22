@@ -43,6 +43,8 @@ var item = arr[0];
 var name = arr[1];
 var price = arr[2];
 var desc = arr[3];
+var woodPrice = arr[4];
+var stonePrice = arr[5];
 
 var _x = (menuMargin + menuWidth) + previewWidth / 2;
 var _y = guiHeight / 2;
@@ -51,7 +53,7 @@ var spr = asset_get_index("s" + item);
 
 if(sprite_exists(spr)){
     var s = 2;
-    draw_sprite_ext(spr, 0, _x - 60, _y - 75, s, s, 0, -1, 1);
+    draw_sprite_ext(spr, 0, _x, _y - 20, s, s, 0, -1, 1);
 }
 
 //Draw Description
@@ -63,9 +65,13 @@ draw_set_halign(fa_left);
 
 //Draw Price
 draw_set_valign(fa_bottom);
-draw_text(menuMargin + menuWidth + 4, guiHeight - 4, "Price: " + string(price));
+draw_text(menuMargin + menuWidth + 4, guiHeight - 4, "Price:     " + string(price));
+draw_text(menuMargin + menuWidth + 224, guiHeight - 4, string(woodPrice));
+draw_text(menuMargin + menuWidth + 324, guiHeight - 4, string(stonePrice));
+draw_sprite_ext(sMoney, 0, menuMargin + menuWidth + 104, guiHeight - 24, 0.75, 0.75, 0, -1, 1);
+draw_sprite_ext(sWood, 0, menuMargin + menuWidth + 204, guiHeight - 24, 0.75, 0.75, 0, -1, 1);
+draw_sprite_ext(sStone, 0, menuMargin + menuWidth + 304, guiHeight - 24, 0.75, 0.75, 0, -1, 1);
 draw_set_halign(fa_right);
 draw_text(guiWidth - 4, guiHeight - 4, "Hit ENTER to Buy");
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-

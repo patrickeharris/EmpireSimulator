@@ -25,6 +25,7 @@ for(var i = 0; i < menu_items; i++)
     draw_text(xx, yy-offset, txt);
     draw_set_color(col);
     draw_text(xx, yy, txt);
+    draw_text(gui_width - 200, gui_height/2 + 200, "WASD to Move. Press E to Toggle Shop. Press C to Get More Coins (For TestIng)");
 }
 
 draw_set_halign(fa_left);

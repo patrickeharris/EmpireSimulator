@@ -10,6 +10,11 @@ key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
+//Get Money (FOR TESTING REMOVE LATER)
+if(keyboard_check_pressed((ord("C")))){
+    money += 1000;
+}
+
 //Calculate Movement
 var hMove = key_right - key_left;
 var vMove = key_down - key_up;

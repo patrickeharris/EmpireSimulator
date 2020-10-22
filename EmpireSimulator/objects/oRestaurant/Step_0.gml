@@ -3,5 +3,4 @@
 if(lvlup == true){
     lvlup = false;
     lvl++;
-    alarm[0] = 0;
 }
