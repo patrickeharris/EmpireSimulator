@@ -58,8 +58,8 @@
   },
   "RoomOrder": [
     {"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},
-    {"name":"rEmpire","path":"rooms/rEmpire/rEmpire.yy",},
     {"name":"rBeginning","path":"rooms/rBeginning/rBeginning.yy",},
+    {"name":"rEmpire","path":"rooms/rEmpire/rEmpire.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -12,6 +12,14 @@ next = 0;
 
 holdspace = 0;
 
-strings[0] = "First line of text";
-strings[1] = "Second line of text";
-strings[2] = "This is the third \nline of text";
+//Text
+
+strings[0] = "War...";
+strings[1] = "Insatiable War...";
+strings[2] = "Your home was destroyed \nby THE VILLAIN";
+strings[3] = "No family... \nNo friends...";
+strings[4] = "No place to call home...";
+strings[5] = "You must flee! \nAnd rebuild";
+strings[6] = "Start again...";
+strings[7] = "And then maybe... \nJust maybe...";
+strings[8] = "You can defeat THE VILLAIN \nAnd get revenge for your home";

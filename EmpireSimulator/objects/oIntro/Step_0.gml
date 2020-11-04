@@ -1,6 +1,6 @@
 //Sets Camera Position
 
-camera_set_view_pos(view_camera[0], xpos, 180);
+camera_set_view_pos(view_camera[0], xpos, 360);
 xpos = max(xpos - 0.3, 0);
 
 //Decides Fadeout or Fadein
@@ -17,19 +17,18 @@ if (l > string_length(str) + 100) && (next < array_length_1d(strings) - 1)
 {
 	l = 0;
 	next++;
-	if (next == array_length_1d(strings) - 1) holdspace++;
 }
 
 str = strings[next];
 
 //Hold to Skip CutScene
 
-if (keyboard_check_direct(vk_space))
+if (keyboard_check(vk_space))
 {
 	holdspace++;
 }
 
-if (holdspace > 80) || (xpos < 100) fadeout = 1;
+if (holdspace > 80) || (xpos < 10) fadeout = 1;
 
 //Transition to Game Room
 
