@@ -39,52 +39,77 @@ if(shopOpen){
 	{
 		if (item == "House")
 		{
-			money -= price;
+			/*money -= price;
 			wood -= woodPrice;
 			stone -= stonePrice;
-			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oHouse);
+			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oHouse);*/
+            shopOpen = false;
+            shop = false;
+            buildItem = oHouse;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            Build(100, 100);
 		}
 		if (item == "WoodHarvester")
 		{
-			money -= price;
-            wood -= woodPrice;
-			stone -= stonePrice;
-	        instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oWoodHarvester);
+			shopOpen = false;
+            shop = false;
+            buildItem = oWoodHarvester;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            Build(64, 64);
 		}
 		if (item == "QuantumQuarry")
 		{
-			money -= price;
-            wood -= woodPrice;
-			stone -= stonePrice;
-			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oQuantumQuarry);
+			shopOpen = false;
+            shop = false;
+            buildItem = oQuantumQuarry;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            Build(64, 64);
 		}
         if (item == "AutoMiner")
 		{
-			money -= price;
-            wood -= woodPrice;
-			stone -= stonePrice;
-			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oAutoMiner);
+			shopOpen = false;
+            shop = false;
+            buildItem = oAutoMiner;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            Build(64, 64);
 		}
         if (item == "Apartment")
 		{
-			money -= price;
-            wood -= woodPrice;
-			stone -= stonePrice;
-			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oApartment);
+			shopOpen = false;
+            shop = false;
+            buildItem = oApartment;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            Build(64, 64);
 		}
         if (item == "Restaurant")
 		{
-			money -= price;
-            wood -= woodPrice;
-			stone -= stonePrice;
-			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oRestaurant);
+			shopOpen = false;
+            shop = false;
+            buildItem = oRestaurant;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            Build(64, 64);
 		}
         if (item == "Mall")
 		{
-			money -= price;
-            wood -= woodPrice;
-			stone -= stonePrice;
-			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oMall);
+			shopOpen = false;
+            shop = false;
+            buildItem = oMall;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            Build(64, 64);
 		}
 	}
 	

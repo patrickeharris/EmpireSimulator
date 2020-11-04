@@ -2,6 +2,10 @@
 // You can write your code in this editor
 shopOpen = false;
 globalvar shop;
+globalvar buildItem;
+globalvar buildPrice;
+globalvar buildWood;
+globalvar buildStone;
 shop = false;
 
 selected = 0;

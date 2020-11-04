@@ -13,6 +13,8 @@ key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 //Get Money (FOR TESTING REMOVE LATER)
 if(keyboard_check_pressed((ord("C")))){
     money += 1000;
+    wood += 1000;
+    stone += 1000;
 }
 
 //Calculate Movement
