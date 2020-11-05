@@ -35,7 +35,7 @@ if(menu_x > gui_width + 150) && (menu_committed != -1)
     switch (menu_committed)
     {
         case 2: default: room_goto_next(); break;
-		case 1: room_goto_next(); break;
+		case 1: room_goto(rEmpire); break;
         case 0: game_end(); break;
     }
 }

@@ -49,7 +49,13 @@ if(shopOpen){
             buildPrice = price;
             buildWood = woodPrice;
             buildStone = stonePrice;
-            Build(100, 100);
+            test= instance_create_layer(0, 0, "Buildings", oHouse);
+            width = test.bbox_right - test.bbox_left;
+            height = test.bbox_bottom - test.bbox_top;
+            Build(width, height);
+            with test{
+                instance_destroy();
+            }
 		}
 		if (item == "WoodHarvester")
 		{
