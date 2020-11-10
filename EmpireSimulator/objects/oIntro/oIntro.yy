@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Cut Scenes",
+    "path": "folders/Objects/Cut Scenes.yy",
   },
   "resourceVersion": "1.0",
   "name": "oIntro",

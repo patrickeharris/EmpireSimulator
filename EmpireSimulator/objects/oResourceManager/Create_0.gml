@@ -13,6 +13,8 @@ globalvar numCommercial;
 
 globalvar money;
 
+globalvar numBuildings;
+
 wood = 0;
 stone = 0;
 iron = 0;
@@ -25,3 +27,5 @@ numResidential = 0;
 numCommercial = 0;
 
 money = 1000;
+
+numBuildings = 0;

@@ -9,7 +9,7 @@ if (!fadeout) a = max(a - 0.005, 0.25); else a = min(a + 0.005, 1);
 
 //Prints Text Letter by Letter
 
-l += 0.5;
+l += 0.75;
 
 print = string_copy(str, 1, l);
 

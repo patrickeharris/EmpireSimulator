@@ -15,9 +15,7 @@ draw_text(640, 640, print);
 
 if (holdspace > 0)
 {
-	draw_set_alpha(Wave(0.2, 0.8, 1, 0));
 	draw_text(640, 710, "Hold space to skip");
-	draw_set_alpha(1);
 }
 
 //Draws Fade Transition

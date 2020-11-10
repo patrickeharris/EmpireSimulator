@@ -1,7 +1,9 @@
-//Tornado Appearance
+//Last Event
 
-instance_create_layer(250, 300, "Player", oTornado);
-
-instance_create_layer(250, 400, "Player", oTornado);
-
-instance_create_layer(250, 500, "Player", oTornado);
+if (population > 20 && numBuildings > 20)
+{
+	room_goto(rGoodEnding);
+} else 
+{
+	room_goto(rBadEnding);
+}

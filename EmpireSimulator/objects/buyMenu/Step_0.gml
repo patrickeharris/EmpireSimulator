@@ -56,6 +56,7 @@ if(shopOpen){
             with test{
                 instance_destroy();
             }
+			numBuildings++;
 		}
 		if (item == "WoodHarvester")
 		{
@@ -66,6 +67,7 @@ if(shopOpen){
             buildWood = woodPrice;
             buildStone = stonePrice;
             Build(64, 64);
+			numBuildings++;
 		}
 		if (item == "QuantumQuarry")
 		{
@@ -76,6 +78,7 @@ if(shopOpen){
             buildWood = woodPrice;
             buildStone = stonePrice;
             Build(64, 64);
+			numBuildings++;
 		}
         if (item == "AutoMiner")
 		{
@@ -86,6 +89,7 @@ if(shopOpen){
             buildWood = woodPrice;
             buildStone = stonePrice;
             Build(64, 64);
+			numBuildings++;
 		}
         if (item == "Apartment")
 		{
@@ -96,6 +100,7 @@ if(shopOpen){
             buildWood = woodPrice;
             buildStone = stonePrice;
             Build(64, 64);
+			numBuildings++;
 		}
         if (item == "Restaurant")
 		{
@@ -106,6 +111,7 @@ if(shopOpen){
             buildWood = woodPrice;
             buildStone = stonePrice;
             Build(64, 64);
+			numBuildings++;
 		}
         if (item == "Mall")
 		{
@@ -116,6 +122,7 @@ if(shopOpen){
             buildWood = woodPrice;
             buildStone = stonePrice;
             Build(64, 64);
+			numBuildings++;
 		}
 	}
 	
