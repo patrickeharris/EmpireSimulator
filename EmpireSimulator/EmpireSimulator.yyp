@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sShop","path":"sprites/sShop/sShop.yy",},"order":25,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":19,},
     {"id":{"name":"oApartment","path":"objects/oApartment/oApartment.yy",},"order":0,},
     {"id":{"name":"buyMenu","path":"objects/buyMenu/buyMenu.yy",},"order":15,},
@@ -8,10 +9,12 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":3,},
     {"id":{"name":"rBeginning","path":"rooms/rBeginning/rBeginning.yy",},"order":2,},
     {"id":{"name":"rBadEnding","path":"rooms/rBadEnding/rBadEnding.yy",},"order":4,},
+    {"id":{"name":"oShop","path":"objects/oShop/oShop.yy",},"order":26,},
     {"id":{"name":"sQuantumQuarry","path":"sprites/sQuantumQuarry/sQuantumQuarry.yy",},"order":1,},
     {"id":{"name":"Build","path":"scripts/Build/Build.yy",},"order":1,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":2,},
     {"id":{"name":"sStone","path":"sprites/sStone/sStone.yy",},"order":1,},
+    {"id":{"name":"oTrader","path":"objects/oTrader/oTrader.yy",},"order":25,},
     {"id":{"name":"oAutoMiner","path":"objects/oAutoMiner/oAutoMiner.yy",},"order":2,},
     {"id":{"name":"oWar","path":"objects/oWar/oWar.yy",},"order":1,},
     {"id":{"name":"sWood","path":"sprites/sWood/sWood.yy",},"order":2,},
@@ -40,6 +43,7 @@
     {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},"order":23,},
     {"id":{"name":"sBad","path":"sprites/sBad/sBad.yy",},"order":22,},
     {"id":{"name":"oQuantumQuarry","path":"objects/oQuantumQuarry/oQuantumQuarry.yy",},"order":0,},
+    {"id":{"name":"sTrader","path":"sprites/sTrader/sTrader.yy",},"order":24,},
     {"id":{"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},"order":0,},
     {"id":{"name":"oRestaurant","path":"objects/oRestaurant/oRestaurant.yy",},"order":1,},
     {"id":{"name":"eventManager","path":"objects/eventManager/eventManager.yy",},"order":18,},

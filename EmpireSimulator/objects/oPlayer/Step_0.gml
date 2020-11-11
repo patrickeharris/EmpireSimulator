@@ -34,6 +34,7 @@ if(place_meeting(x + hsp,y, oWall))
     }
     hsp = 0;
 }
+
 x += hsp;
 
 //Vertical Collision
