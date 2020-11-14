@@ -22,3 +22,8 @@ healthbar_width = 60;
 healthbar_height = 6;
 healthbar_x = oHouse.x - (healthbar_width / 2);
 healthbar_y = oHouse.y - 75;
+
+
+open = false;
+
+collide = false;

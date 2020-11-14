@@ -1,8 +1,7 @@
 with(other){
     //Tornado Collision
 
-    //health -= 10;
+    health -= 5;
 
     //REMOVE LATER
-    instance_destroy();
 }
