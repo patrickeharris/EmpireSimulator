@@ -12,4 +12,6 @@ tShortage = 13500;
 timer = 300;
 step = 0;
 
+count = 0;
+
 //Need to Switch Timer to Minutes

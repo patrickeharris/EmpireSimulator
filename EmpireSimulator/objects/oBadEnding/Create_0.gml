@@ -10,14 +10,13 @@ print = "";
 l = 0;
 next = 0;
 
-//Change Text Later
-
-strings[0] = "War...";
-strings[1] = "Insatiable War...";
-strings[2] = "Your home was destroyed \nby THE VILLAIN";
-strings[3] = "No family... \nNo friends...";
-strings[4] = "No place to call home...";
-strings[5] = "You must flee! \nAnd rebuild";
-strings[6] = "Start again...";
-strings[7] = "And then maybe... \nJust maybe...";
-strings[8] = "You can defeat THE VILLAIN \nAnd get revenge for your home";
+strings[0] = "Unfortunately...";
+strings[1] = "Your army was no match for the VILLAIN and his minions";
+strings[2] = "You lay on your deathbed";
+strings[3] = "Maybe you will at least get to see \nthe face of the man that destroyed your life";
+strings[4] = "Wait a minute...";
+strings[5] = "Is that...";
+strings[6] = "your BROTHER?!";
+strings[7] = "All these years...";
+strings[8] = "You thought he died with the rest of your family";
+strings[9] = "But he was the cause...";

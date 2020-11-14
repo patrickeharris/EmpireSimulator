@@ -14,5 +14,11 @@ if(numResidential > numCommercial && populationHappiness < 100){
 
 //Set House Health
 
-health = 100;
+health = 50;
 
+health_max = health;
+
+healthbar_width = 60;
+healthbar_height = 6;
+healthbar_x = oHouse.x - (healthbar_width / 2);
+healthbar_y = oHouse.y - 75;

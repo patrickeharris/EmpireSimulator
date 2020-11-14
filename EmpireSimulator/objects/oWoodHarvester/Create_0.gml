@@ -3,3 +3,14 @@
 lvl = 1;
 lvlup = false;
 step = 0;
+
+//Set Health
+
+health = 50;
+
+health_max = health;
+
+healthbar_width = 60;
+healthbar_height = 6;
+healthbar_x = oWoodHarvester.x - (healthbar_width / 2);
+healthbar_y = oWoodHarvester.y - 75;
