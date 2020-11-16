@@ -23,3 +23,7 @@ strings[5] = "You must flee! \nAnd rebuild";
 strings[6] = "Start again...";
 strings[7] = "And then maybe... \nJust maybe...";
 strings[8] = "You can defeat THE VILLAIN \nAnd get revenge for your home";
+
+audio_stop_sound(sMenuMusic);
+
+audio_play_sound(sBadEndingMusic, 1, true);

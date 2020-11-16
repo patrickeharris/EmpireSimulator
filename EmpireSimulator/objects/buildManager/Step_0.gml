@@ -62,6 +62,7 @@ if(enter && image_index == 0){
 			instance_create_layer(oPlayer.x - 20, oPlayer.y, "Buildings", oMall);
 		}*/
     instance_destroy();
+	audio_play_sound(sPlaceBuilding, 1, 0);
 }
 
 if(cancel){

@@ -2,6 +2,7 @@
 // You can write your code in this editor
 menu_x += (menu_x_target - menu_x) / menu_speed;
 
+
 if(menu_control)
 {
     if(keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")))

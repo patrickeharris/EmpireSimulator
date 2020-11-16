@@ -20,3 +20,4 @@ if (l > string_length(str) + 100) && (next < array_length_1d(strings) - 1)
 }
 
 str = strings[next];
+
