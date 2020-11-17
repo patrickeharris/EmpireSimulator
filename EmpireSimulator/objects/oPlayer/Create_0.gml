@@ -15,3 +15,5 @@ if (audio_is_playing(sBadEndingMusic))
 }
 
 audio_play_sound(sMusic, 3, true);
+
+instance_create_layer(100, window_get_height() - 100, "UI", oBot);

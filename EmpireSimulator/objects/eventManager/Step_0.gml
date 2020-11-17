@@ -26,14 +26,14 @@ if(tFamine <= 0)
 	{
 		population = 1;
 	}
-
 	while (count < 600)
 	{
-		draw_sprite(sTextBox, 0, 683, 384);
+        draw_sprite(sTextBox, 0, 683, 384);
 
-		text = "A famine has hit your growing town. \nSome of your people have been killed.";
+        text = "A famine has hit your growing town. \nSome of your people have been killed.";
 
-		draw_text(683, 434, text);
+	    draw_text(683, 434, text);
+		
 		
 		count++;
 	}
