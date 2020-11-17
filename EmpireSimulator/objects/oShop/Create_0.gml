@@ -21,6 +21,7 @@ ds_list_add(items, ["House", "House", 100, "Increases Population", 100, 100]);
 ds_list_add(items, ["Apartment", "Apartment", 1000, "Increases Population", 1000, 1000]);
 ds_list_add(items, ["Restaurant", "Restaurant", 500, "Increases GDP", 500, 500]);
 ds_list_add(items, ["Mall", "Mall", 5000, "Increases GDP", 5000, 5000]);
+ds_list_add(items, ["Barracks", "Barracks", 5000, "Maintain an Army", 5000, 5000]);
 itemCount = ds_list_size(items);
 
 

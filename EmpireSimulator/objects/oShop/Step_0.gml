@@ -126,6 +126,17 @@ if(shopOpen){
             Build(64, 64);
 			numBuildings++;
 		}
+        if (item == "Barracks")
+		{
+			shopOpen = false;
+            shop = false;
+            buildItem = oBarracks;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            Build(64, 64);
+			numBuildings++;
+		}
 	}
 	
 	
