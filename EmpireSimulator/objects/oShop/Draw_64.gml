@@ -1,7 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
+if(!collide){
+    exit;
+}
+draw_text_transformed(x - 15, y - 60, "Shop", 0.5, 0.5, 0);
+
+
+
 if(!shopOpen){
     exit;
 }

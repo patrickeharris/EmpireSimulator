@@ -4,12 +4,17 @@
 //Menu To Show Health, Upgrade, and Sell
 
 
+if(!collide){
+    exit;
+}
+
 //Draw House Health Bar
 
 draw_sprite(sHealthBarBG, 0, healthbar_x, healthbar_y);
 draw_sprite_stretched(sHealthBar, 0, healthbar_x, healthbar_y, (health / health_max) * healthbar_width, healthbar_height);
 draw_sprite(sHealthBarBorder, 0, healthbar_x, healthbar_y);
-
+draw_set_halign(fa_center);
+draw_text_transformed(healthbar_x + 27, healthbar_y - 18, "HOUSE", 0.5, 0.5, 0);
 
 
 if(!open){
@@ -25,18 +30,20 @@ draw_rectangle(menuMargin, 0, menuMargin + menuWidth, guiHeight, 0);
 draw_set_alpha(1);
 draw_set_color(c_white);
 
-draw_set_halign(fa_right);
-draw_text_transformed(guiWidth / 2 + 100, 50, "HOUSE", 2, 2, 0);
+draw_set_halign(fa_center);
+draw_text_transformed(guiWidth / 2, 50, "HOUSE", 2, 2, 0);
 
 //Draw Each Item
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_text(guiWidth / 2 + 40, 150, string(lvl));
+draw_text(guiWidth / 2, 150, "Level: ");
+
 for(var i = 0; i < itemCount; i++){
     var arr = items[| i];
     var name = arr[0];
-    var woodPrice = arr[1];
-    var stonePrice = arr[2];
-    var coins = arr[3];
     
-    var _x = menuMargin + menuWidth / 2 - 200;
+    var _x = menuMargin + menuWidth / 2;
     var _y = (guiHeight / 2) + (i - selected) * 32;
     
     var s = 1;
@@ -46,25 +53,23 @@ for(var i = 0; i < itemCount; i++){
     if(i == selected){
         name = "> " + name + " <";
     }
-    
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
     draw_text_transformed(_x, _y, name, s, s , 0);
-    draw_set_halign(fa_left);
-    draw_text(_x + 170, _y, string(woodPrice));
-    draw_text(_x + 235, _y, "+");
-    draw_text(_x + 300, _y, string(stonePrice));
-    draw_text(_x + 365, _y, "=");
-    draw_text(_x + 430, _y, string(coins));
-    draw_set_halign(fa_center);
-    draw_sprite_ext(sMoney, 0, _x + 410, _y, 0.75, 0.75, 0, -1, 1);
-    draw_sprite_ext(sWood, 0, _x + 150, _y, 0.75, 0.75, 0, -1, 1);
-    draw_sprite_ext(sStone, 0, _x + 280, _y, 0.75, 0.75, 0, -1, 1);
-    draw_set_valign(fa_top);
-    draw_set_halign(fa_left);
+    if(name == "Upgrade" || name == "> Upgrade <"){
+        draw_text(_x + 150, _y, "Cost: ");
+        draw_text(_x + 240, _y, string(2 * worth));
+        draw_set_halign(fa_center);
+        draw_sprite_ext(sMoney, 0, _x + 200, _y, 0.75, 0.75, 0, -1, 1);
+    }
+    if(name == "Sell" || name == "> Sell <"){
+        draw_text(_x + 25, _y + 30, string(worth));
+        draw_set_halign(fa_center);
+        draw_sprite_ext(sMoney, 0, _x - 15, _y + 30, 0.75, 0.75, 0, -1, 1);
+    }
 }
 
 draw_set_halign(fa_right);
-draw_text(guiWidth / 2 + 100, guiHeight - 150, "Hit ENTER To Trade");
+draw_text(guiWidth / 2 + 100, guiHeight - 150, "Hit ENTER To Select");
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

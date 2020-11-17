@@ -13,8 +13,9 @@ if(!collide){
 draw_sprite(sHealthBarBG, 0, healthbar_x, healthbar_y);
 draw_sprite_stretched(sHealthBar, 0, healthbar_x, healthbar_y, (health / health_max) * healthbar_width, healthbar_height);
 draw_sprite(sHealthBarBorder, 0, healthbar_x, healthbar_y);
+
 draw_set_halign(fa_center);
-draw_text_transformed(healthbar_x + 27, healthbar_y - 18, "QUANTUM QUARRY", 0.5, 0.5, 0);
+draw_text_transformed(healthbar_x + 27, healthbar_y - 18, "AUTO MINER", 0.5, 0.5, 0);
 
 
 if(!open){
@@ -31,7 +32,7 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 
 draw_set_halign(fa_center);
-draw_text_transformed(guiWidth / 2, 50, "QUANTUM QUARRY", 2, 2, 0);
+draw_text_transformed(guiWidth / 2, 50, "AUTO MINER", 2, 2, 0);
 
 //Draw Each Item
 draw_set_halign(fa_center);

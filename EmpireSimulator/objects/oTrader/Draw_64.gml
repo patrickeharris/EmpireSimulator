@@ -1,7 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
+if(!collide){
+    exit;
+}
+draw_text_transformed(x - 37, y - 33, "Trade Station", 0.5, 0.5, 0);
+
+
+
 if(!open){
     exit;
 }
