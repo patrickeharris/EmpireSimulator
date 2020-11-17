@@ -4,14 +4,14 @@
 //Menu To Show Health, Upgrade, and Sell
 
 
-if(!collide){
+if(!collide && hp == health_max){
     exit;
 }
 
 //Draw House Health Bar
 
 draw_sprite(sHealthBarBG, 0, healthbar_x, healthbar_y);
-draw_sprite_stretched(sHealthBar, 0, healthbar_x, healthbar_y, (health / health_max) * healthbar_width, healthbar_height);
+draw_sprite_stretched(sHealthBar, 0, healthbar_x, healthbar_y, (hp / health_max) * healthbar_width, healthbar_height);
 draw_sprite(sHealthBarBorder, 0, healthbar_x, healthbar_y);
 draw_set_halign(fa_center);
 draw_text_transformed(healthbar_x + 27, healthbar_y - 18, "BARRACKS", 0.5, 0.5, 0);

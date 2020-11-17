@@ -4,9 +4,9 @@ lvl = 1;
 lvlup = false;
 step = 0;
 
-health = 50;
+hp = 50;
 
-health_max = health;
+health_max = hp;
 
 healthbar_width = 60;
 healthbar_height = 6;

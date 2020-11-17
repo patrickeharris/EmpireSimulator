@@ -6,9 +6,9 @@ step = 0;
 
 //Set Health
 
-health = 50;
+hp = 50;
 
-health_max = health;
+health_max = hp;
 
 healthbar_width = 60;
 healthbar_height = 6;

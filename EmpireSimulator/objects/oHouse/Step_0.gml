@@ -8,7 +8,7 @@ if(lvlup == true){
 
 //House Destruction
 
-if (health == 0)
+if (hp == 0)
 {
 	numResidential--;
 	populationHappiness -= 20;

@@ -72,3 +72,11 @@ if (keyboard_check_pressed(vk_enter) && name == "Upgrade" && money >= 2 * worth)
         money -= 2 * worth;
 	}
 }
+
+if (hp == 0)
+{
+	numCommercial--;
+	populationHappiness -= 20;
+	gdp -= 1000;
+	instance_destroy();
+}
