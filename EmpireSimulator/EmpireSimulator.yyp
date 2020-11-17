@@ -29,7 +29,6 @@
     {"id":{"name":"buildManager","path":"objects/buildManager/buildManager.yy",},"order":11,},
     {"id":{"name":"ui","path":"objects/ui/ui.yy",},"order":5,},
     {"id":{"name":"sRestaurant","path":"sprites/sRestaurant/sRestaurant.yy",},"order":5,},
-    {"id":{"name":"sHealthBarBorder","path":"sprites/sHealthBarBorder/sHealthBarBorder.yy",},"order":28,},
     {"id":{"name":"sHealthBarBorder","path":"sprites/sHealthBarBorder/sHealthBarBorder.yy",},"order":15,},
     {"id":{"name":"lights_begin","path":"scripts/lights_begin/lights_begin.yy",},"order":2,},
     {"id":{"name":"oLight","path":"objects/oLight/oLight.yy",},"order":12,},
