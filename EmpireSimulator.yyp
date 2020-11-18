@@ -19,6 +19,7 @@
     {"id":{"name":"sQuantumQuarry","path":"sprites/sQuantumQuarry/sQuantumQuarry.yy",},"order":1,},
     {"id":{"name":"sLaserGun","path":"sprites/sLaserGun/sLaserGun.yy",},"order":19,},
     {"id":{"name":"Build","path":"scripts/Build/Build.yy",},"order":1,},
+    {"id":{"name":"sFire","path":"sprites/sFire/sFire.yy",},"order":25,},
     {"id":{"name":"oEnemyRanged","path":"objects/oEnemyRanged/oEnemyRanged.yy",},"order":24,},
     {"id":{"name":"oLaserGun","path":"objects/oLaserGun/oLaserGun.yy",},"order":25,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":2,},

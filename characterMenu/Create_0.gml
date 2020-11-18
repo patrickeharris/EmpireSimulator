@@ -20,3 +20,16 @@ menuWidth = guiWidth * 0.3;
 menuMargin = guiWidth * 0.1;
 
 previewWidth = guiWidth - (menuWidth + menuMargin);
+
+//Outfit Variables
+
+globalvar banker;
+
+globalvar architect;
+
+globalvar mayor;
+
+banker = false;
+architect = false;
+mayor = false;
+

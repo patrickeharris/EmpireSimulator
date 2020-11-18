@@ -34,15 +34,21 @@ if(open){
 	{
         if (name == "Banker" && money >= 2000)
 		{
-			sPlayer.image_index = 1;
+			banker = true;
+			architect = false;
+			mayor = false;
 		}
 		if (name == "Architect" && numBuildings >= 10)
 		{
-			sPlayer.image_index = 2;
+			architect = true;
+			banker = false;
+			mayor = false;
 		}
 		if (name == "Mayor" && population >= 10)
 		{
-			sPlayer.image_index = 3;
+			mayor = true;
+			banker = false;
+			architect = false;
 		}
 	}
 	
