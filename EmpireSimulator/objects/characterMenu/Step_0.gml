@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 if(!open && keyboard_check_pressed(ord("P"))){
     open = true;
     shop = true;

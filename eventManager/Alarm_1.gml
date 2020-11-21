@@ -1,3 +1,0 @@
-//Famine
-
-population -= 10;

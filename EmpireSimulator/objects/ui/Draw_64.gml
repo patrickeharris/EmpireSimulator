@@ -17,6 +17,6 @@ draw_text(70, guiHeight - (menuHeight / 2), string(money));
 draw_text(170, guiHeight - (menuHeight / 2), string(wood));
 draw_text(270, guiHeight - (menuHeight / 2), string(stone));
 draw_text(370, guiHeight - (menuHeight / 2), string(population));
-draw_text(470, guiHeight - (menuHeight / 2), string(timer));
+draw_text(470, guiHeight - (menuHeight / 2), string(timer / 60));
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);

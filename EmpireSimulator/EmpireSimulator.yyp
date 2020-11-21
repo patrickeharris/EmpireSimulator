@@ -58,6 +58,7 @@
     {"id":{"name":"sGood","path":"sprites/sGood/sGood.yy",},"order":8,},
     {"id":{"name":"sMoney","path":"sprites/sMoney/sMoney.yy",},"order":0,},
     {"id":{"name":"sBarracks","path":"sprites/sBarracks/sBarracks.yy",},"order":17,},
+    {"id":{"name":"characterMenu","path":"objects/characterMenu/characterMenu.yy",},"order":28,},
     {"id":{"name":"lights_end","path":"scripts/lights_end/lights_end.yy",},"order":3,},
     {"id":{"name":"oResourceManager","path":"objects/oResourceManager/oResourceManager.yy",},"order":0,},
     {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},"order":10,},

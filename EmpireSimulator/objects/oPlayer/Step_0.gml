@@ -49,14 +49,49 @@ if(place_meeting(x, y + vsp, oWall))
 y += vsp;
 
 //Animation
-image_speed = 1;
-if(hsp == 0 && vsp == 0)
+
+if (hsp == 0 && vsp == 0)
 {
-    sprite_index = sPlayer;
-}
-else
+	image_speed = 0;
+	sprite_index = sPlayer;
+	if (banker == false && architect == false && mayor == false)
+	{
+		image_index = 0;
+	}
+	if (banker == true)
+	{
+		image_index = 1;
+	}
+	if (architect == true)
+	{
+		image_index = 2;
+	}
+	if (mayor == true)
+	{
+		image_index = 3;
+	}
+} else 
 {
-    sprite_index = sPlayerR;
+	if (banker == false && architect == false && mayor == false)
+	{
+		sprite_index = sPlayerR;
+		image_speed = 1;
+	}
+	if (banker == true)
+	{
+		sprite_index = sPlayerR2;
+		image_speed = 1;
+	}
+	if (architect == true)
+	{
+		sprite_index = sPlayerR3;
+		image_speed = 1;
+	}
+	if (mayor == true)
+	{
+		sprite_index = sPlayerR4;
+		image_speed = 1;
+	}
 }
 
 if(hsp != 0)
