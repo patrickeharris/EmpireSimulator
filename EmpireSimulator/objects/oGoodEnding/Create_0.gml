@@ -11,7 +11,7 @@ l = 0;
 next = 0;
 
 strings[0] = "You've done it!";
-strings[1] = "The VILLAINS army is no match /nfor the strength of your people";
+strings[1] = "The VILLAINS army is no match \nfor the strength of your people";
 strings[2] = "It is time to finally unmask this great villain";
 strings[3] = "Look the man who destroyed your home in the eyes";
 strings[4] = "But wait...";
@@ -24,3 +24,6 @@ strings[9] = "But he was the cause?!";
 audio_stop_sound(sMusic);
 
 audio_play_sound(sGoodEndingMusic, 1, true);
+
+blackScreen = false;
+count = 0;

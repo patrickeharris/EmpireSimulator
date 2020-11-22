@@ -1,6 +1,6 @@
 //Last Event
 
-if (population > 20 && numBuildings > 20)
+if (population > 1 && numBuildings > 0)
 {
 	room_goto(rGoodEnding);
 } else 

@@ -13,6 +13,9 @@ draw_set_font(fMenu);
 
 draw_text(640, 640, print);
 
-//Draws Fade Transition
 
-draw_sprite_ext(sPixel, 0, 0, 200, 1920, 420, 0, c_black, a);
+if (blackScreen == true)
+{
+	draw_sprite_ext(sPixel, 0, 0, 200, 1920, 420, 0, c_black, 1);
+	
+}

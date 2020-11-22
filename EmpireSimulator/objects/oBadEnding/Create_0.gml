@@ -21,6 +21,9 @@ strings[7] = "All these years...";
 strings[8] = "You thought he died with the rest of your family";
 strings[9] = "But he was the cause...";
 
-audio_stop_sound(sBadEndingMusic);
+audio_stop_sound(sMusic);
 
 audio_play_sound(sBadEndingMusic, 1, true);
+
+blackScreen = false;
+count = 0;

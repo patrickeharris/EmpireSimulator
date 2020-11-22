@@ -19,27 +19,15 @@ if (tFamine > 0)
 }
 if(tFamine <= 0)
 {
-	if (population >= 10)
-	{
-		population -= 10;
-	} else if (population < 10)
-	{
-		population = 1;
-	}
+	population = irandom(population);
 	while (count < 600)
 	{
-        draw_sprite(sTextBox, 0, 683, 384);
-
-        text = "A famine has hit your growing town. \nSome of your people have been killed.";
-
-	    draw_text(683, 434, text);
-		
-		
+		famineTextbox = true;
 		count++;
 	}
+	famineTextbox = false;
 	
-	
-	tFamine = 1000000;
+	tFamine = 100000000;
 	count = 0;
 }
 
@@ -51,24 +39,21 @@ if (tTornado > 0)
 }
 if(tTornado <= 0){
 	
-    instance_create_layer(250, 300, "Player", oTornado);
+    instance_create_layer(250, random(700), "Player", oTornado);
 
-	instance_create_layer(250, 400, "Player", oTornado);
+	instance_create_layer(250, random(700), "Player", oTornado);
 
-	instance_create_layer(250, 500, "Player", oTornado);
+	instance_create_layer(250, random(700), "Player", oTornado);
 	
 	while (count < 600)
 	{
-		draw_sprite(sTextBox, 0, 683, 384);
-
-		text = "Storms erupt. \nTornados destroy some of your buildings.";
-
-		draw_text(683, 434, text);
+		tornadoTextbox = true;
 		
 		count++;
 	}
+	tornadoTextbox = false;
 	
-	tTornado = 1000000;
+	tTornado = 100000000;
 	count = 0;
 }
 
@@ -84,14 +69,11 @@ if(tShortage <= 0){
 	
 	while (count < 600)
 	{
-		draw_sprite(sTextBox, 0, 683, 384);
-
-		text = "A resource shortage hits your growing town. \nYour resources deplete during this trying time.";
-
-		draw_text(683, 434, text);
+		shortageTextbox = true;
 		
 		count++;
 	}
+	shortageTextbox = false;
 	
 	tShortage = 1000000;
 	count = 0;

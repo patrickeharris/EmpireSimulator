@@ -5,7 +5,7 @@ xpos = max(xpos - 0.3, 0);
 
 //Decides Fadeout or Fadein
 
-if (!fadeout) a = max(a - 0.005, 0.25); else a = min(a + 0.005, 1);
+if (!fadeout) a = max(a - 0.005, 0.25); else a = min(a + 0.025, 1);
 
 //Prints Text Letter by Letter
 
@@ -20,6 +20,11 @@ if (l > string_length(str) + 100) && (next < array_length_1d(strings) - 1)
 }
 
 str = strings[next];
+
+if (next == array_length_1d(strings) - 1)
+{
+	holdspace += 0.25;
+}
 
 //Hold to Skip CutScene
 

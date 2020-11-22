@@ -1,7 +1,7 @@
 //Sets Camera Position
 
-camera_set_view_pos(view_camera[0], xpos, 360);
-xpos = max(xpos - 0.3, 0);
+camera_set_view_pos(view_camera[0], xpos, 100);
+xpos = max(xpos - 0.40, 0);
 
 //Decides Fadeout or Fadein
 
@@ -20,4 +20,15 @@ if (l > string_length(str) + 100) && (next < array_length_1d(strings) - 1)
 }
 
 str = strings[next];
+
+if (next == array_length_1d(strings) - 1)
+{
+	count++;
+	if (count == 50)
+	{
+		blackScreen = true;
+		audio_stop_sound(sGoodEndingMusic);
+		audio_play_sound(sEvilLaugh, 1, 0);
+	}
+}
 
