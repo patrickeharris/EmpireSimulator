@@ -20,15 +20,10 @@ if (tFamine > 0)
 if(tFamine <= 0)
 {
 	population = irandom(population);
-	while (count < 600)
-	{
-		famineTextbox = true;
-		count++;
-	}
-	famineTextbox = false;
+	count = 300;
+	famineTextbox = true;
 	
 	tFamine = 100000000;
-	count = 0;
 }
 
 //Tornado Event
@@ -44,17 +39,10 @@ if(tTornado <= 0){
 	instance_create_layer(250, random(700), "Player", oTornado);
 
 	instance_create_layer(250, random(700), "Player", oTornado);
-	
-	while (count < 600)
-	{
-		tornadoTextbox = true;
-		
-		count++;
-	}
-	tornadoTextbox = false;
+    count = 300;
+	tornadoTextbox = true;
 	
 	tTornado = 100000000;
-	count = 0;
 }
 
 //Resource Shortage Event
@@ -64,17 +52,21 @@ if (tShortage > 0)
 	tShortage = tShortage - 1;
 }
 if(tShortage <= 0){
-    wood -= 500;
-	stone -= 500;
-	
-	while (count < 600)
-	{
-		shortageTextbox = true;
-		
-		count++;
-	}
-	shortageTextbox = false;
+    wood -= wood / 2;
+	stone -= stone / 2;
+    count = 300;
+	shortageTextbox = true;
+
 	
 	tShortage = 1000000;
-	count = 0;
+}
+
+if(count > 0){
+    count--;
+}
+if(count <= 0 && ((tornadoTextbox || shortageTextbox)||famineTextbox)){
+    tornadoTextbox = false;
+    shortageTextbox = false;
+    famineTextbox = false;
+    
 }
