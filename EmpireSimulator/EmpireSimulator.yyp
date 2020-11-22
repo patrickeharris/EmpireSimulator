@@ -63,6 +63,7 @@
     {"id":{"name":"sGood","path":"sprites/sGood/sGood.yy",},"order":8,},
     {"id":{"name":"sMoney","path":"sprites/sMoney/sMoney.yy",},"order":0,},
     {"id":{"name":"sPlayerR3","path":"sprites/sPlayerR3/sPlayerR3.yy",},"order":4,},
+    {"id":{"name":"sSubTitle","path":"sprites/sSubTitle/sSubTitle.yy",},"order":27,},
     {"id":{"name":"sBarracks","path":"sprites/sBarracks/sBarracks.yy",},"order":17,},
     {"id":{"name":"characterMenu","path":"objects/characterMenu/characterMenu.yy",},"order":28,},
     {"id":{"name":"sEvilLaugh","path":"sounds/sEvilLaugh/sEvilLaugh.yy",},"order":6,},
