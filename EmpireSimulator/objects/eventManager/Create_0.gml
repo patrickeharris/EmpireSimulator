@@ -19,3 +19,5 @@ famineTextbox = false;
 tornadoTextbox = false;
 
 shortageTextbox = false;
+
+randomize();

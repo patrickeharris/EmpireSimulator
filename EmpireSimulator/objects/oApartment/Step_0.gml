@@ -74,7 +74,7 @@ if (keyboard_check_pressed(vk_enter) && name == "Upgrade" && money >= 2 * worth)
 	}
 }
 
-if (hp == 0)
+if (hp <= 0)
 {
 	numResidential--;
 	populationHappiness -= 20;

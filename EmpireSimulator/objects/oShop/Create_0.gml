@@ -16,7 +16,7 @@ selected = 0;
 items = ds_list_create();
 ds_list_add(items, ["WoodHarvester", "Wood Harvester", 10, "Collects Wood", 0, 0]);
 ds_list_add(items, ["QuantumQuarry", "Quantum Quarry", 50, "Collects Stone", 0, 0]);
-ds_list_add(items, ["AutoMiner", "Auto Miner", 100, "Collects Iron", 0, 0]);
+ds_list_add(items, ["Walls", "Wall", 10, "Defend Town", 10, 10]);
 ds_list_add(items, ["House", "House", 100, "Increases Population", 100, 100]);
 ds_list_add(items, ["Apartment", "Apartment", 1000, "Increases Population", 1000, 1000]);
 ds_list_add(items, ["Restaurant", "Restaurant", 500, "Increases GDP", 500, 500]);

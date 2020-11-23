@@ -66,7 +66,13 @@ if(shopOpen){
             buildPrice = price;
             buildWood = woodPrice;
             buildStone = stonePrice;
-            Build(64, 64);
+            test= instance_create_layer(0, 0, "Buildings", oWoodHarvester);
+            width = test.bbox_right - test.bbox_left;
+            height = test.bbox_bottom - test.bbox_top;
+            Build(width, height);
+            with test{
+                instance_destroy();
+            }
 			numBuildings++;
 		}
 		if (item == "QuantumQuarry")
@@ -77,7 +83,13 @@ if(shopOpen){
             buildPrice = price;
             buildWood = woodPrice;
             buildStone = stonePrice;
-            Build(64, 64);
+            test= instance_create_layer(0, 0, "Buildings", oQuantumQuarry);
+            width = test.bbox_right - test.bbox_left;
+            height = test.bbox_bottom - test.bbox_top;
+            Build(width, height);
+            with test{
+                instance_destroy();
+            }
 			numBuildings++;
 		}
         if (item == "AutoMiner")
@@ -88,7 +100,13 @@ if(shopOpen){
             buildPrice = price;
             buildWood = woodPrice;
             buildStone = stonePrice;
-            Build(64, 64);
+            test= instance_create_layer(0, 0, "Buildings", oAutoMiner);
+            width = test.bbox_right - test.bbox_left;
+            height = test.bbox_bottom - test.bbox_top;
+            Build(width, height);
+            with test{
+                instance_destroy();
+            }
 			numBuildings++;
 		}
         if (item == "Apartment")
@@ -99,7 +117,13 @@ if(shopOpen){
             buildPrice = price;
             buildWood = woodPrice;
             buildStone = stonePrice;
-            Build(64, 64);
+            test= instance_create_layer(0, 0, "Buildings", oApartment);
+            width = test.bbox_right - test.bbox_left;
+            height = test.bbox_bottom - test.bbox_top;
+            Build(width, height);
+            with test{
+                instance_destroy();
+            }
 			numBuildings++;
 		}
         if (item == "Restaurant")
@@ -110,7 +134,13 @@ if(shopOpen){
             buildPrice = price;
             buildWood = woodPrice;
             buildStone = stonePrice;
-            Build(64, 64);
+            test= instance_create_layer(0, 0, "Buildings", oRestaurant);
+            width = test.bbox_right - test.bbox_left;
+            height = test.bbox_bottom - test.bbox_top;
+            Build(width, height);
+            with test{
+                instance_destroy();
+            }
 			numBuildings++;
 		}
         if (item == "Mall")
@@ -121,7 +151,13 @@ if(shopOpen){
             buildPrice = price;
             buildWood = woodPrice;
             buildStone = stonePrice;
-            Build(64, 64);
+            test= instance_create_layer(0, 0, "Buildings", oMall);
+            width = test.bbox_right - test.bbox_left;
+            height = test.bbox_bottom - test.bbox_top;
+            Build(width, height);
+            with test{
+                instance_destroy();
+            }
 			numBuildings++;
 		}
 	}

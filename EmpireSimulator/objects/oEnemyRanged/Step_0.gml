@@ -21,6 +21,7 @@ gun.x = x + (sprite_width / 2) + 5 * image_xscale;
 gun.y = y + (sprite_height / 4);
 gun.image_xscale = image_xscale;
 
+move = false;
 
 nearest = instance_nearest(x, y, oAttackable);
 if(instance_exists(nearest)){
@@ -37,6 +38,7 @@ if(instance_exists(nearest)){
         gun.image_xscale = image_xscale;
     }
     if(sqrt(sqr(nearest.x - x) + sqr(nearest.y - y)) < 500){
+        move = false;
         if(!instance_exists(laser)){
             with(gun){
                 image_speed = 1;
@@ -51,9 +53,21 @@ if(instance_exists(nearest)) {
 	myPath = path_add();
 	if(mp_grid_path(rmForestGrid, myPath, x, y, nearest.x, nearest.y + (sprite_height / 2), true)) {
 		path_start(myPath, 4, path_action_stop, true);
+        move = true;
         if(sqrt(sqr(nearest.x - x) + sqr(nearest.y - y)) < 500){
             path_end();
+            move = false;
         }
 	}
 }
 
+if (!move)
+{
+    sprite_index = sPlayer;
+	image_speed = 0;
+    image_index = 0;
+} else 
+{
+    sprite_index = sPlayerR;
+	image_speed = 1;
+}

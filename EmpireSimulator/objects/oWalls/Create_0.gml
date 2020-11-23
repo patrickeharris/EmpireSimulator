@@ -8,6 +8,7 @@ lvlup = false;
 //Set House Health
 
 hp = 50;
+worth = 10;
 
 health_max = hp;
 

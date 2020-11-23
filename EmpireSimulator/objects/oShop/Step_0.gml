@@ -137,6 +137,23 @@ if(shopOpen){
             Build(64, 64);
 			numBuildings++;
 		}
+        if (item == "Walls")
+		{
+			shopOpen = false;
+            shop = false;
+            buildItem = oWalls;
+            buildPrice = price;
+            buildWood = woodPrice;
+            buildStone = stonePrice;
+            test= instance_create_layer(0, 0, "Buildings", oWalls);
+            width = test.bbox_right - test.bbox_left;
+            height = test.bbox_bottom - test.bbox_top;
+            Build(width, height);
+            with test{
+                instance_destroy();
+            }
+			numBuildings++;
+		}
 	}
 	
 	
