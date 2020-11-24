@@ -34,7 +34,7 @@ if(open){
 	
 	if (keyboard_check_pressed(vk_enter))
 	{
-        if (name == "Banker" && money >= 2000)
+        if (name == "Banker" && money >= 5000)
 		{
 			banker = true;
 			architect = false;
@@ -46,7 +46,7 @@ if(open){
 			banker = false;
 			mayor = false;
 		}
-		if (name == "Mayor" && population >= 10)
+		if (name == "Mayor" && population >= 25)
 		{
 			mayor = true;
 			banker = false;

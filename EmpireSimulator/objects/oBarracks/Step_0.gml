@@ -6,6 +6,9 @@ if(lvlup == true){
     worth *= 2;
     multiplier *= 2;
 }
+if(hp <= 0){
+    instance_destroy();
+}
 if(!open && keyboard_check_pressed(ord("E")) && collide){
     open = true;
     shop = true;

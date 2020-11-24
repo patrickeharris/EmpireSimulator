@@ -8,6 +8,9 @@ enter = keyboard_check_pressed(vk_enter);
 cancel = keyboard_check(vk_escape);
 
 if(enter && image_index == 0){
+    if(buildItem == oWoodHarvester && woodshop == 0){
+        woodshop++;
+    }
     money -= buildPrice;
 	wood -= buildWood;
 	stone -= buildStone;

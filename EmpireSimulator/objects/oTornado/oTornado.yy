@@ -31,6 +31,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oMall","path":"objects/oMall/oMall.yy",},"parent":{"name":"oTornado","path":"objects/oTornado/oTornado.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oRestaurant","path":"objects/oRestaurant/oRestaurant.yy",},"parent":{"name":"oTornado","path":"objects/oTornado/oTornado.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oWalls","path":"objects/oWalls/oWalls.yy",},"parent":{"name":"oTornado","path":"objects/oTornado/oTornado.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oBarracks","path":"objects/oBarracks/oBarracks.yy",},"parent":{"name":"oTornado","path":"objects/oTornado/oTornado.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor //Create and run when left button is pressed
 //Create the new goal
+healthbar_x = x - (healthbar_width / 2);
+healthbar_y = y - 75;
 if(hp <= 0){
     with(gun){
         instance_destroy();
@@ -71,11 +73,11 @@ if(instance_exists(nearest)) {
 
 if (!move)
 {
-    sprite_index = sPlayer;
+    sprite_index = sEnemy;
 	image_speed = 0;
     image_index = 0;
 } else 
 {
-    sprite_index = sPlayerR;
+    sprite_index = sEnemyR;
 	image_speed = 1;
 }

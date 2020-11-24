@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor //Create and run when left button is pressed
 //Create the new goal
-
+healthbar_x = x - (healthbar_width / 2);
+healthbar_y = y - 75;
 if(hp <= 0){
     with(gun){
         instance_destroy();
@@ -37,7 +38,9 @@ gun.image_speed = 0;
 move = false;
 
 nearest = instance_nearest(x, y, oAttackable);
-
+if(!instance_exists(nearest)) {
+    lose = true;
+}
 
 if(instance_exists(nearest)) {
     if(path_index == -1){

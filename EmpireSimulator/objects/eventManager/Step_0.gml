@@ -2,7 +2,7 @@
 
 //Decrement Timer for Last Event
 step++;
-if (timer > 0 && step > room_speed * 1)
+if (timer > 0 && step > room_speed * 2)
 {
     step = 0;
 	timer = timer - 1;
@@ -23,6 +23,9 @@ if (tFamine > 0)
 }
 if(tFamine <= 0)
 {
+    with(oTrader){
+        alarm[3] = 1;
+    }
 	population = irandom(population);
 	count = 300;
 	famineTextbox = true;
@@ -37,7 +40,9 @@ if (tTornado > 0)
 	tTornado = tTornado - 1;
 }
 if(tTornado <= 0){
-	
+	with(oTrader){
+        alarm[2] = 1;
+    }
     instance_create_layer(250, random(700), "Player", oTornado);
 
 	instance_create_layer(250, random(700), "Player", oTornado);
@@ -56,6 +61,9 @@ if (tShortage > 0)
 	tShortage = tShortage - 1;
 }
 if(tShortage <= 0){
+    with(oTrader){
+        alarm[1] = 1;
+    }
     wood -= wood / 2;
 	stone -= stone / 2;
     count = 300;

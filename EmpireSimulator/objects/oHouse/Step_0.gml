@@ -74,6 +74,8 @@ if (keyboard_check_pressed(vk_enter) && name == "Sell")
         open = false;
         shop = false;
         money += worth;
+        numResidential--;
+        population -= 1;
         instance_destroy();
 	}
 

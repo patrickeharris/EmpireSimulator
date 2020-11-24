@@ -62,6 +62,8 @@ if (keyboard_check_pressed(vk_enter) && name == "Sell")
         open = false;
         shop = false;
         money += worth;
+        numResidential--;
+        population -= 20;
         instance_destroy();
 	}
 
@@ -78,6 +80,6 @@ if (hp <= 0)
 {
 	numResidential--;
 	populationHappiness -= 20;
-	population -= 50;
+	population -= 20;
 	instance_destroy();
 }

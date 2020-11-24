@@ -7,6 +7,9 @@ y = oPlayer.y - image_yscale / 2;
 enter = keyboard_check_pressed(vk_enter);
 
 if(enter && image_index == 0){
+    if(buildItem == oWoodHarvester && movewood == 0){
+        movewood++;
+    }
     money -= buildPrice;
 	wood -= buildWood;
 	stone -= buildStone;

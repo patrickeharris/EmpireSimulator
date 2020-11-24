@@ -18,5 +18,13 @@ draw_text(170, guiHeight - (menuHeight / 2), string(wood));
 draw_text(270, guiHeight - (menuHeight / 2), string(stone));
 draw_text(370, guiHeight - (menuHeight / 2), string(population));
 draw_text(470, guiHeight - (menuHeight / 2), string(timer / 60));
+draw_set_halign(fa_left);
+draw_text(520, guiHeight - (menuHeight / 2), "GDP per Capita: ");
+if(gdp == 0){
+    draw_text(720, guiHeight - (menuHeight / 2), string(0));
+}
+else{
+    draw_text(720, guiHeight - (menuHeight / 2), string(gdp/population * 50));
+}
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);

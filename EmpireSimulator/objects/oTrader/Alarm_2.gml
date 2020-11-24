@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-population += 20;
+ds_list_add(items, ["Somewheresville", 10000, 5000, 10000]);
+itemCount++;

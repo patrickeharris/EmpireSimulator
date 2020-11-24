@@ -34,6 +34,9 @@ gun.image_speed = 0;
 move = false;
 
 nearest = instance_nearest(x, y, oEnemies);
+if(!instance_exists(nearest)) {
+    numEnemies = true;
+}
 
 
 if(instance_exists(nearest)) {

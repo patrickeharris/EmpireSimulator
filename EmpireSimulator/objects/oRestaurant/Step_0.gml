@@ -61,6 +61,8 @@ if (keyboard_check_pressed(vk_enter) && name == "Sell")
         open = false;
         shop = false;
         money += worth;
+        numCommercial--;
+        gdp -= 100;
         instance_destroy();
 	}
 

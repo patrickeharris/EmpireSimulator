@@ -26,6 +26,7 @@ for(var i = 0; i < menu_items; i++)
     draw_set_color(col);
     draw_text(xx, yy, txt);
     draw_set_halign(fa_center);
+    draw_set_color(c_white);
     draw_text(gui_width/2, gui_height/2 + 200, "WASD to Move. Press E to Interact.");
     draw_set_halign(fa_right);
 	//draw_text(gui_width - 400, gui_height/2 + 250, "Press T to Trigger Tornado Event (For Testing)");
