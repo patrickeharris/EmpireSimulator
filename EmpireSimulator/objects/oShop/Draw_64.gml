@@ -13,6 +13,7 @@ if(!shopOpen){
 draw_set_color(c_black);
 draw_set_alpha(0.8);
 draw_rectangle(0, 0, guiWidth, guiHeight, 0);
+draw_rectangle(guiWidth / 2 - 136, guiHeight - 49, guiWidth, guiHeight - 82, 0);
 draw_set_alpha(0.5);
 draw_rectangle(menuMargin, 0, menuMargin + menuWidth, guiHeight, 0);
 draw_set_alpha(1);
@@ -72,12 +73,12 @@ draw_set_halign(fa_left);
 
 //Draw Price
 draw_set_valign(fa_bottom);
-draw_text(menuMargin + menuWidth + 4, guiHeight - 4, "Price:     " + string(price));
-draw_text(menuMargin + menuWidth + 224, guiHeight - 4, string(woodPrice));
-draw_text(menuMargin + menuWidth + 324, guiHeight - 4, string(stonePrice));
-draw_sprite_ext(sMoney, 0, menuMargin + menuWidth + 104, guiHeight - 24, 0.75, 0.75, 0, -1, 1);
-draw_sprite_ext(sWood, 0, menuMargin + menuWidth + 204, guiHeight - 24, 0.75, 0.75, 0, -1, 1);
-draw_sprite_ext(sStone, 0, menuMargin + menuWidth + 304, guiHeight - 24, 0.75, 0.75, 0, -1, 1);
+draw_text(menuMargin + menuWidth + 4, guiHeight - 44, "Price:     " + string(price));
+draw_text(menuMargin + menuWidth + 224, guiHeight - 44, string(woodPrice));
+draw_text(menuMargin + menuWidth + 324, guiHeight - 44, string(stonePrice));
+draw_sprite_ext(sMoney, 0, menuMargin + menuWidth + 104, guiHeight - 64, 0.75, 0.75, 0, -1, 1);
+draw_sprite_ext(sWood, 0, menuMargin + menuWidth + 204, guiHeight - 64, 0.75, 0.75, 0, -1, 1);
+draw_sprite_ext(sStone, 0, menuMargin + menuWidth + 304, guiHeight - 64, 0.75, 0.75, 0, -1, 1);
 draw_set_halign(fa_right);
 draw_text(guiWidth - 4, guiHeight - 4, "Hit ENTER to Buy");
 draw_set_halign(fa_left);

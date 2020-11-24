@@ -26,3 +26,21 @@ if (shortageTextbox == true)
     draw_set_halign(fa_middle);
 	draw_text_ext(window_get_width() / 2, 20, text, 50, 1000);
 }
+
+if (barracksTextbox == true)
+{
+	draw_sprite_ext(sTextBox, 0, window_get_width() / 2 - 300, 20, 1.5, 1, 0, c_black, 1);
+
+	text = "The end is nigh. \nMake sure you have a barracks.";
+    draw_set_halign(fa_middle);
+	draw_text_ext(window_get_width() / 2, 20, text, 50, 1000);
+}
+
+if (warTextbox == true)
+{
+	draw_sprite_ext(sTextBox, 0, window_get_width() / 2 - 300, 20, 1.5, 1, 0, c_black, 1);
+
+	text = "The VILLAN'S armies approach. \nGood luck!.";
+    draw_set_halign(fa_middle);
+	draw_text_ext(window_get_width() / 2, 20, text, 50, 1000);
+}

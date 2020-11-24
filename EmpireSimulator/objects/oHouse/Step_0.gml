@@ -4,6 +4,9 @@ if(lvlup == true){
     lvlup = false;
     lvl++;
     worth *= 2;
+    health_max *= 2;
+    hp*=2;
+    
 }
 
 //House Destruction

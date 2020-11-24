@@ -43,11 +43,11 @@ if(tTornado <= 0){
 	with(oTrader){
         alarm[2] = 1;
     }
-    instance_create_layer(250, random(700), "Player", oTornado);
+    var _y = irandom_range(20, 750);
+    if(!instance_exists(oTornado)){
+        tornado = instance_create_layer(250, _y, "Player", oTornado);
+    }
 
-	instance_create_layer(250, random(700), "Player", oTornado);
-
-	instance_create_layer(250, random(700), "Player", oTornado);
     count = 300;
 	tornadoTextbox = true;
 	
@@ -64,21 +64,43 @@ if(tShortage <= 0){
     with(oTrader){
         alarm[1] = 1;
     }
-    wood -= wood / 2;
-	stone -= stone / 2;
+    wood -= irandom_range(wood / 3,wood / 2);
+	stone -= irandom_range(stone / 3, stone / 2);
     count = 300;
 	shortageTextbox = true;
 
 	
 	tShortage = 1000000;
 }
+if (tBarracks > 0)
+{
+	tBarracks = tBarracks - 1;
+}
+
+if(tBarracks <= 0){
+    count = 300;
+    barracksTextbox = true;
+    tBarracks = 1000000;
+}
+
+if (tWar > 0)
+{
+	tWar = tWar - 1;
+}
+if(tWar <= 0){
+    count = 300;
+    warTextbox = true;
+    tWar = 1000000;
+}
 
 if(count > 0){
     count--;
 }
-if(count <= 0 && ((tornadoTextbox || shortageTextbox)||famineTextbox)){
+if(count <= 0 && (((tornadoTextbox || shortageTextbox)||(barracksTextbox || warTextbox))||famineTextbox)){
     tornadoTextbox = false;
     shortageTextbox = false;
     famineTextbox = false;
+    barracksTextbox = false;
+    warTextbox = false;
     
 }

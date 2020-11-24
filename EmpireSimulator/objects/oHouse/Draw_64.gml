@@ -59,6 +59,7 @@ for(var i = 0; i < itemCount; i++){
     if(name == "Upgrade" || name == "> Upgrade <"){
         draw_text(_x + 150, _y, "Cost: ");
         draw_text(_x + 240, _y, string(2 * worth));
+        draw_text(_x - 200, _y, "Increases HP");
         draw_set_halign(fa_center);
         draw_sprite_ext(sMoney, 0, _x + 200, _y, 0.75, 0.75, 0, -1, 1);
     }

@@ -1,7 +1,7 @@
 with(other){
     //Tornado Collision
 
-    health -= 5;
+    hp -= 5;
 
     //REMOVE LATER
 }

@@ -4,6 +4,8 @@ if(lvlup == true){
     lvlup = false;
     lvl++;
     worth *= 2;
+    health_max *= 2;
+    hp*=2;
 }
 
 if(!open && keyboard_check_pressed(ord("E")) && collide){

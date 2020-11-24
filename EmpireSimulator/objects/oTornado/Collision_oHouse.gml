@@ -1,3 +1,3 @@
 with other{
-    health -= 5;
+    hp -= 5;
 }
