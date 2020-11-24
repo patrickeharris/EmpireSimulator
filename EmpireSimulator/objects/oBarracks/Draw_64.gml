@@ -39,7 +39,7 @@ draw_set_valign(fa_middle);
 draw_text(guiWidth / 2 + 40, 150, string(lvl));
 draw_text(guiWidth / 2, 150, "Level: ");
 if(population * 50 <= gdp){
-    draw_text(guiWidth / 2 + 65, 180, string(round(population * 0.2)));
+    draw_text(guiWidth / 2 + 65, 180, string(round(population * 0.1)));
     draw_text(guiWidth / 2 - 25, 180, "Army Size: ");
 }else{
     draw_text(guiWidth / 2, 180, "DISABLED. GDP Not High Enough To Maintain Army");

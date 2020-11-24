@@ -25,8 +25,10 @@ for(var i = 0; i < menu_items; i++)
     draw_text(xx, yy-offset, txt);
     draw_set_color(col);
     draw_text(xx, yy, txt);
-    draw_text(gui_width - 200, gui_height/2 + 200, "WASD to Move. Press E to Interact. Press C to Get More Coins (For Testing)");
-	draw_text(gui_width - 400, gui_height/2 + 250, "Press T to Trigger Tornado Event (For Testing)");
+    draw_set_halign(fa_center);
+    draw_text(gui_width/2, gui_height/2 + 200, "WASD to Move. Press E to Interact.");
+    draw_set_halign(fa_right);
+	//draw_text(gui_width - 400, gui_height/2 + 250, "Press T to Trigger Tornado Event (For Testing)");
 }
 
 draw_set_halign(fa_left);

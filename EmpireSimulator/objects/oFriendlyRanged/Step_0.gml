@@ -50,24 +50,29 @@ if(instance_exists(nearest)){
 }
 
 if(instance_exists(nearest)) {
-	myPath = path_add();
-	if(mp_grid_path(rmForestGrid, myPath, x, y, nearest.x, nearest.y + (sprite_height / 2), true)) {
-		path_start(myPath, 4, path_action_stop, true);
+	if(path_index == -1){
+        myPath = path_add();
+        if(mp_grid_path(rmForestGrid, myPath, x, y, nearest.x, nearest.y + (sprite_height / 2), true)) {
+            path_start(myPath, 4, path_action_stop, true);
+            move = true;
+        }
+    }
+    else{
         move = true;
         if(sqrt(sqr(nearest.x - x) + sqr(nearest.y - y)) < 500){
             path_end();
             move = false;
         }
-	}
+    }
 }
 
 if (!move)
 {
-    sprite_index = sPlayer;
+    sprite_index = sFriendly;
 	image_speed = 0;
     image_index = 0;
 } else 
 {
-    sprite_index = sPlayerR;
+    sprite_index = sFriendlyR;
 	image_speed = 1;
 }

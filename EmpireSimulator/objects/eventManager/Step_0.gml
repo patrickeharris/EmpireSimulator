@@ -7,7 +7,11 @@ if (timer > 0 && step > room_speed * 1)
     step = 0;
 	timer = timer - 1;
 }
-if(timer <= 0){
+if(banker && step == 0){
+    money = money + 1 + round(money * 0.0001);
+}
+if(timer <= 0 && !finished){
+    finished = true;
     alarm[0] = 1;
 }
 

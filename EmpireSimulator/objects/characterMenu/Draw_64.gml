@@ -44,6 +44,7 @@ var arr = items[| selected];
 var name = arr[0];
 var condition = arr[1];
 var index = arr[2];
+var desc = arr[3];
 
 var _x = (menuMargin + menuWidth) + previewWidth / 2;
 var _y = guiHeight / 2;
@@ -59,5 +60,6 @@ draw_sprite_ext(sPlayer, index, _x, _y - 20, s, s, 0, -1, 1);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_text(_x, _y + 80, condition);
+draw_text(_x, _y + 120, desc);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);

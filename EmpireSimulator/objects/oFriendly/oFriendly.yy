@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sFriendly",
+    "path": "sprites/sFriendly/sFriendly.yy",
   },
   "solid": false,
   "visible": true,

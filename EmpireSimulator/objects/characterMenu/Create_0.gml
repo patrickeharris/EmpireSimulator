@@ -3,9 +3,9 @@ open = false;
 
 items = ds_list_create();
 
-ds_list_add(items, ["Banker", "You have reached 2000 coins", 1]);
-ds_list_add(items, ["Architect", "You have built ten buildings", 2]);
-ds_list_add(items, ["Mayor", "Your population has reached ten people", 3]);
+ds_list_add(items, ["Banker", "You have reached 2000 coins", 1, "Allows you to earn interest on your coins"]);
+ds_list_add(items, ["Architect", "You have built ten buildings", 2, "Allows you to get 1.5x resource output"]);
+ds_list_add(items, ["Mayor", "Your population has reached ten people", 3, "Allows trade deals to be 0.5x the price"]);
 
 itemCount = ds_list_size(items);
 

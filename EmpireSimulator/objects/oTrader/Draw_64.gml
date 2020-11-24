@@ -44,9 +44,16 @@ for(var i = 0; i < itemCount; i++){
     draw_set_valign(fa_middle);
     draw_text_transformed(_x, _y, name, s, s , 0);
     draw_set_halign(fa_left);
-    draw_text(_x + 170, _y, string(woodPrice));
-    draw_text(_x + 235, _y, "+");
-    draw_text(_x + 300, _y, string(stonePrice));
+    if(mayor){
+        draw_text(_x + 170, _y, string(woodPrice / 2));
+        draw_text(_x + 235, _y, "+");
+        draw_text(_x + 300, _y, string(stonePrice / 2));
+    }
+    else{
+        draw_text(_x + 170, _y, string(woodPrice));
+        draw_text(_x + 235, _y, "+");
+        draw_text(_x + 300, _y, string(stonePrice));
+    }
     draw_text(_x + 365, _y, "=");
     draw_text(_x + 430, _y, string(coins));
     draw_set_halign(fa_center);

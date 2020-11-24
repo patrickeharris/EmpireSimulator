@@ -2,6 +2,8 @@
 
 globalvar timer;
 
+finished = false;
+
 //Trying to Get Other Events Set Up
 //Not Sure How to Time Them
 

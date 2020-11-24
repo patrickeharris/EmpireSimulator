@@ -1,8 +1,9 @@
 //Last Event
 
-if (population > 1 && numBuildings > 0)
+if (population > 1 && instance_exists(oBarracks))
 {
-	room_goto(rGoodEnding);
+	instance_create_layer(0, 0, "UI", oWar);
+    //room_goto(rGoodEnding);
 } else 
 {
 	room_goto(rBadEnding);

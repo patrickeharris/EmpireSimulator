@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 1,
   "bbox_right": 58,
-  "bbox_top": 5,
+  "bbox_top": 4,
   "bbox_bottom": 54,
   "HTile": false,
   "VTile": false,
@@ -24,24 +24,36 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"295aba88-d072-4252-99a0-20988facfba0","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"295aba88-d072-4252-99a0-20988facfba0","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":{"name":"d238e68c-94da-4584-898d-02e62759b59e","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sWoodHarvester","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"295aba88-d072-4252-99a0-20988facfba0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"de205d19-6cfc-4179-975d-18fc11a5482a","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"de205d19-6cfc-4179-975d-18fc11a5482a","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":{"name":"cea080bf-b89c-454e-a8af-2c90631d6330","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWoodHarvester","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"de205d19-6cfc-4179-975d-18fc11a5482a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a0e06b19-91a9-4f43-a1f9-3f1a9b509e02","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a0e06b19-91a9-4f43-a1f9-3f1a9b509e02","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":{"name":"cea080bf-b89c-454e-a8af-2c90631d6330","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWoodHarvester","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"a0e06b19-91a9-4f43-a1f9-3f1a9b509e02","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"14854f45-54fa-4a60-a0b1-76a85992293f","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"14854f45-54fa-4a60-a0b1-76a85992293f","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":{"name":"cea080bf-b89c-454e-a8af-2c90631d6330","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWoodHarvester","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"14854f45-54fa-4a60-a0b1-76a85992293f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0369bd15-a59d-4e27-8f10-e8358724583a","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0369bd15-a59d-4e27-8f10-e8358724583a","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"LayerId":{"name":"cea080bf-b89c-454e-a8af-2c90631d6330","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWoodHarvester","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","name":"0369bd15-a59d-4e27-8f10-e8358724583a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sWoodHarvester","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 7.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ce666d34-93bb-48f3-8f9d-1521ab248f4c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"295aba88-d072-4252-99a0-20988facfba0","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"100e54cb-6d73-4940-a3be-8f770b011e9d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"de205d19-6cfc-4179-975d-18fc11a5482a","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c84314f3-f433-46c0-a9c4-29759f2060fc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0e06b19-91a9-4f43-a1f9-3f1a9b509e02","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"37b5a8e0-975d-43fa-89c4-9a166b89f7c0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14854f45-54fa-4a60-a0b1-76a85992293f","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"14b4ed1f-1419-44bb-81b3-f8d4b4966388","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0369bd15-a59d-4e27-8f10-e8358724583a","path":"sprites/sWoodHarvester/sWoodHarvester.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d238e68c-94da-4584-898d-02e62759b59e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cea080bf-b89c-454e-a8af-2c90631d6330","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Resources",

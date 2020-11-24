@@ -9,9 +9,9 @@ collide = false;
 selected = 0;
 
 items = ds_list_create();
-ds_list_add(items, ["Country A", 1000, 0, 100]);
-ds_list_add(items, ["Country B", 0, 500, 100]);
-ds_list_add(items, ["Country C", 250, 250, 100]);
+ds_list_add(items, ["Livonia", 1000, 0, 100]);
+ds_list_add(items, ["Empirica", 0, 500, 100]);
+ds_list_add(items, ["Outlandia", 250, 250, 100]);
 itemCount = ds_list_size(items);
 
 

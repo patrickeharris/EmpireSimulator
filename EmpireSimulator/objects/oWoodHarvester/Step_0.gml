@@ -1,9 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 step++;
+if(builder){
+    builder = false;
+    wood += 1 * lvl;
+}
 if(step % (room_speed * 1) == 0){
     step = 0;
     wood += 1 * lvl;
+    if(builder == false && architect){
+        builder = true;
+    }
 }
 if(lvlup == true){
     lvlup = false;

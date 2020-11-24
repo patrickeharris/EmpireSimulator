@@ -3,6 +3,7 @@
 lvl = 1;
 lvlup = false;
 step = 0;
+builder = false;
 
 //Set Health
 
